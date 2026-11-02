@@ -2,7 +2,7 @@
 
 Let AI interview you before it answers. This is a Claude skill and two prompts
 from the Loyola Marymount University Center for Faculty Development workshop
-"Let AI Interview You First," November 6, 2026, by Greg Lontok and Ed Mosteig.
+"Let AI Interview You First," November 6, 2026, by Greg Lontok.
 
 The first thing you type into an AI is a compressed version of your real
 problem, bent toward what you think the tool can answer. Answer-first AI
@@ -31,6 +31,41 @@ instead, run this:
 ```
 mkdir -p ~/.claude/skills/interview-me && curl -fsSL https://raw.githubusercontent.com/LMU-ISBA/interview-me/main/interview-me/SKILL.md -o ~/.claude/skills/interview-me/SKILL.md
 ```
+
+## Pause, remove, or change the skill
+
+To pause it, open Customize, then Skills, and flip the switch next to
+interview-me. Claude ignores the skill until you flip it back, and nothing is
+lost.
+
+To remove it, open Customize, then Skills, and click interview-me. Click the
+three dots next to the switch, choose "Delete," and confirm. Uploading the zip
+again brings it back.
+
+To change it for one conversation, say so in the chat. "Interview me first,
+but five questions and no lenses" works, because the skill tells Claude that
+you make the decisions.
+
+To change it for good, edit the file. The skill is one plain-English text
+file, SKILL.md, inside a folder named interview-me. No code.
+
+1. Unzip the download. Double-click it on a Mac. On Windows, right-click it and choose "Extract All."
+2. Open SKILL.md with TextEdit on a Mac or Notepad on Windows. If it opens somewhere else, right-click the file and choose "Open With."
+3. Leave the line "name: interview-me" as it is. Change anything else you like, and save.
+4. Zip the interview-me folder again. On a Mac, right-click it and choose "Compress." On Windows, right-click it, choose "Send to," then "Compressed (zipped) folder."
+5. Delete the old skill in Claude, as above, and upload the new zip.
+
+Not sure how to word a change? Paste SKILL.md into a chat, say what you want
+different, and ask for the whole file back. Save it over the old one and
+start at step 4.
+
+If you installed it by hand in Claude Code, the skill is the folder
+`~/.claude/skills/interview-me`. Delete the folder to remove it. Edit the
+SKILL.md inside it to change it, and Claude Code picks up the change in the
+current session. To hide it without deleting it, run `/skills`, highlight
+interview-me, and press Space until it reads off.
+
+Source for the Claude steps: https://support.claude.com/en/articles/12512180-use-skills-in-claude
 
 ## Use the prompt in any other tool
 
@@ -88,5 +123,5 @@ Answer as each of my three, one at a time, to the same three questions: what is 
 
 ## Contact
 
-Greg Lontok, greg@lontok.com. This is a first draft, and we'd like to hear
+Greg Lontok, greg@lontok.com. This is a first draft, and I'd like to hear
 what changed when you ran it.
