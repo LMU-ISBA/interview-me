@@ -76,11 +76,6 @@ or copy the text of [SKILL.md](interview-me/SKILL.md).
 The steps to pause, remove, and change the skill in Claude are in the
 [README](README.md).
 
-## The slides
-
-The slides from the session are a PDF, with every reveal shown:
-[let-ai-interview-you-first-fa26.pdf](slides/let-ai-interview-you-first-fa26.pdf).
-
 ## Questions or help
 
 If you'd like help setting up your AI so it already knows your work, and you

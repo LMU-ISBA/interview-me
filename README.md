@@ -120,7 +120,6 @@ Answer as each of my three, one at a time, to the same three questions: what is 
 | `interview-me/SKILL.md` | The skill: the four steps, question rules, and the pressure test |
 | `prompts/interview-prompt.md` | The interview prompt, a room version under 2,000 characters and a full version, with notes on the choices |
 | `prompts/perspectives-prompt.md` | The five-then-three pressure test, with notes |
-| `slides/let-ai-interview-you-first-fa26.pdf` | The slides from the November 6, 2026 session, as a PDF |
 | `workshop.md` | The prompts page from the session, at r.isba.co/ask-first |
 
 ## Contact
