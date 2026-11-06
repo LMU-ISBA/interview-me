@@ -56,19 +56,25 @@ Show me two other ways to see this, as different from the first as you
 can make them. Then ask me which one fits best and why.
 ```
 
-## Later: pressure-test your spec
+## Use it as a skill
 
-When you have a spec you're leaning toward, ask for five people who'd see it
-differently, pick three, and compare where they split. The prompts are in
-[prompts/perspectives-prompt.md](prompts/perspectives-prompt.md). Personas
-from one model aren't independent opinions, so the value is having to answer
-them.
+The same four steps are saved as a skill, so you don't paste anything. A
+skill is a set of saved instructions your AI follows when a request matches.
+Download the skill from
+https://github.com/LMU-ISBA/interview-me/releases/latest/download/interview-me.zip,
+or copy the text of [SKILL.md](interview-me/SKILL.md).
 
-## Use it as a Claude skill
+- Claude: upload the zip under Customize > Skills. Then say "interview me
+  first" in any new chat.
+- ChatGPT: go to Skills, choose Create, then Upload from your computer, and
+  pick the zip. Then say "interview me first" in any new chat.
+- Gemini: create a Gem and paste the SKILL.md text into its instructions.
+  Open that Gem when you want to be interviewed.
+- Copilot: create an agent and paste the SKILL.md text into its
+  instructions. Open that agent when you want to be interviewed.
 
-If you use Claude, the same four steps are saved as a skill, so you don't
-paste anything. Say "interview me first" in any new chat. The steps to add,
-pause, remove, and change it are in the [README](README.md).
+The steps to pause, remove, and change the skill in Claude are in the
+[README](README.md).
 
 ## Questions or help
 
