@@ -114,34 +114,21 @@ Rules for the whole conversation.
 Begin now with GOAL. Do not restate these instructions.
 ```
 
-## Notes on this draft
+## Why it's worded this way
 
-What changed from the handoff version, and why.
-
-- A stopping rule the model can check. "Stop when one more question would
-  not change your recommendation" pointed at a recommendation the prompt
-  forbids. The rule now is: stop when you could fill all four REFLECT headings
-  without guessing. EXAMPLE and GOAL have exits of their own.
-- Numbered questions against a budget of ten. Models do not count reliably
-  without a visible counter, and "Q4 of 10" tells the participant when to
-  type "enough." The ten is a budget, not a target. The model is told to
-  rank the unknowns it still has and spend each question on the one that
-  would most change the specification. A ceiling alone invites padding up
-  to it. Changed November 2, 2026, after Greg asked that the limit force
-  prioritization.
-- A leading question is defined with an example, since the model does not
+- A stopping rule the model can check: stop when you could fill all four
+  REFLECT headings without guessing. GOAL and EXAMPLE have exits of their own.
+- Numbered questions against a budget of ten. Models don't count reliably
+  without a visible counter, and "Q4 of 10" tells you when to type "enough."
+  The ten is a budget, not a target. The model ranks the unknowns it still
+  has and spends each question on the one that would most change the
+  specification. A ceiling alone invites padding up to it.
+- A leading question is defined with an example, since the model doesn't
   share our definition.
-- Choices for simple facts, or when the person says they're stuck, capped at
-  three with "or something else." A menu for "what happened" can hand the
-  person stereotypes to pick from, so the ban on leading questions stays.
-  Changed November 5, 2026, after Greg said choices help him decide when
-  he's stuck.
+- Choices for simple facts, or when you say you're stuck, capped at three
+  with "or something else." A menu for "what happened" can hand you
+  stereotypes to pick from, so the ban on leading questions stays.
 - The REFLECT stop has an observable form: end the message and wait.
 - A proposed solution is treated as a hypothesis with three test questions.
 - "Begin with GOAL now. Do not restate these instructions" stops ChatGPT and
   Copilot from replying to the prompt itself.
-
-Tested once, November 1, 2026, on Claude through the command line: the first
-reply named the stage and asked exactly one question with no solution. Still
-to test on Wednesday: Copilot and Gemini, the room version against an LMU
-account, and turns two through ten.

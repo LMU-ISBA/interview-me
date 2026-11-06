@@ -30,16 +30,12 @@ Here is where I have got to on a problem: my corrected summary or my plan, and t
 Answer as each of my three, one at a time, to the same three questions: what is right about this plan, what breaks first, and what one change would you make. Keep each under 120 words and in their own priorities. Where two would agree, say so in the comparison rather than softening one to make room. Then write a comparison under three headings: where all three agree, where they split, and what none of them raised. Stop after the third heading. No conclusion, no recommendation, no next step. Then ask me one question: which change, if any, I want to make to the plan.
 ```
 
-## Notes on this draft
+## Why it's worded this way
 
 - The two parts are separate on purpose. Pasted together, the model picks the
   three itself and the choosing step disappears.
 - "Give each a different thing they would protect" is what keeps the five
-  from converging. We dropped a stronger version (force one who thinks the
-  plan goes too far and one who thinks it does not go far enough) because it
-  reads as staged role-play, which the handoff warns against.
+  from converging into three cautious reviewers saying the same thing.
 - "Stop after the third heading" and the closing question replace "do not
   recommend," which models ignore because a comparison feels unfinished
   without a verdict.
-- Still to test: whether 120 words is enough, and whether faculty prefer the
-  three to answer in one message or in three turns.
