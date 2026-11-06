@@ -7,9 +7,9 @@ from the Loyola Marymount University Center for Faculty Development workshop
 The first thing you type into an AI is a compressed version of your real
 problem, bent toward what you think the tool can answer. Answer-first AI
 solves that compressed version. This skill makes Claude interview you first,
-in five stages: GOAL, EXAMPLE, EXPLORE, REFLECT, NEXT. It asks one question
-at a time, ten at most, says back what it heard, and waits for your
-correction before it proposes anything.
+in four steps: three questions with choices, a blind spot pass, a one-page
+spec you review, and a visual you can react to. It gives no solution until
+you've reviewed the spec.
 
 ## Install the skill in Claude
 
@@ -117,7 +117,7 @@ Answer as each of my three, one at a time, to the same three questions: what is 
 
 | Path | What it is |
 | --- | --- |
-| `interview-me/SKILL.md` | The skill: five stages, lenses, question rules, the specification format, and the pressure test |
+| `interview-me/SKILL.md` | The skill: the four steps, question rules, and the pressure test |
 | `prompts/interview-prompt.md` | The interview prompt, a room version under 2,000 characters and a full version, with notes on the choices |
 | `prompts/perspectives-prompt.md` | The five-then-three pressure test, with notes |
 

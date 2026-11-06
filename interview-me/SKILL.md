@@ -1,156 +1,99 @@
 ---
 name: interview-me
 description: >-
-  Interview the user about a goal, problem, or decision before producing
+  Interview the user about an idea, goal, or decision before producing
   anything. Use when the user says "interview me first" or gives a vague request.
 ---
 
-1. GOAL      Stop when you can state it in one sentence.
-2. EXAMPLE   "Walk me through the most recent time this happened."
-3. EXPLORE   Choose one lens. Name it. Question through it.
-4. REFLECT   Summarize. Ask what you got wrong. Wait.
-5. NEXT      Specification, then one step with a date.
+1. THREE QUESTIONS   One at a time, with choices, and a sentence on why.
+2. BLIND SPOT PASS   Five unknown unknowns, ranked, one line each.
+3. THE SPEC          Goal, constraints, what good looks like. Mark guesses.
+4. THE VISUAL        One page to react to, guesses highlighted.
 
-Ten questions, total. Spend each on the unknown that would most
-change the spec. Stop early when REFLECT would need no guessing.
+Don't give a solution until the user has reviewed the spec.
 
-# Let AI Interview You First
+# Interview me first
 
-You are the interviewer. The user owns the decisions. Nothing gets built,
-drafted, or recommended until the REFLECT stage is confirmed. If the request
-is a small, well-specified task, say so and offer to just do it.
+You help the user think through an idea before anyone builds anything. The
+user owns the decisions. If the request is a small, well-specified task, say
+so and offer to just do it.
 
-## Stages
+Work through the four steps in order. Name each step in a few words as you
+start it.
 
-Run these in order and announce each move in one line. GOAL and EXAMPLE
-usually take two questions each, so plan on five or six for EXPLORE.
+## 1. Three questions
 
-1. GOAL. What are they trying to create, improve, or decide? For whom? What
-   would success look like? Stop when you can state the goal in one sentence.
-2. EXAMPLE. "Walk me through the most recent time this happened." Get the
-   actual event: what was planned, what happened, and what they noticed. One
-   follow-up for detail. Stop when you can retell the incident in three
-   sentences. Do not accept a general impression in place of an incident.
-3. EXPLORE. Choose one lens from the table below, name it, say why in one
-   line, and tell the user they can ask you to switch. Ask two or three
-   questions through it, evidence before causes. Probe assumptions,
-   constraints, and tradeoffs. If the user has a solution in mind, treat it
-   as a hypothesis: ask what they would expect to see if it worked, what else
-   would explain the same evidence, and what it costs if they are wrong. Do
-   not endorse it before REFLECT.
-4. REFLECT. Write the summary under four headings: the goal, what the example
-   showed, the real problem as you now see it, and what you are assuming or
-   unsure about. Ask what you got wrong or missed, and end the message there.
-   Do not start NEXT until the user has answered.
-5. NEXT. Produce the specification (below), then the reusable prompt block.
+Ask three questions, one at a time, about what would most change your
+advice. Give multiple-choice options for each, plus "something else." Say in
+a sentence why you're asking. Wait for each answer before the next question.
 
-## Lenses for EXPLORE
+Before each question, rank what you still don't know by how much a
+surprising answer would change the spec, and ask about the top one. Don't
+spend a question on anything already in the user's message or files. If the
+user asks for more questions, ask more, still one at a time.
 
-| Lens | Use when the problem is about |
-| --- | --- |
-| 5 Whys (Ohno) | a recurring breakdown with an unknown cause |
-| Socratic questioning (Paul and Elder) | a belief or assumption that needs testing |
-| Backward design (Wiggins and McTighe) | a course, unit, assignment, or assessment |
-| Critical incident technique (Flanagan) | behavior that varies by situation |
-| Cognitive task analysis (Crandall, Klein, and Hoffman) | expertise the user cannot state directly |
-| Premortem (Klein) | a plan about to be launched |
-| 5W2H | a process or event that is poorly described |
-| Process mapping | handoffs, bottlenecks, and waiting |
-| FINER or PICO | shaping a research question |
-| Stakeholder and ethics review | tradeoffs that land on different people |
+## 2. Blind spot pass
 
-Pick one. Offer to switch if the user prefers another.
+Based on the answers, list the user's five unknown unknowns: what they most
+likely haven't considered. Rank them, most important first, one line each.
+No fixes yet.
+
+## 3. The spec
+
+Write a one-page spec in plain words with the goal, the constraints, and what
+good looks like. Mark what you're guessing, so the user can tell it apart
+from what they told you. Fold in the blind spots that matter. End with one
+next step. Then ask what they'd update, and revise until they're satisfied.
+
+## 4. The visual
+
+Offer a one-page visual of the spec they can react to. Highlight your
+guesses and use short labels. If you can't show a picture, draw a text
+diagram. If it doesn't land, offer two other ways to see it, as different
+from the first as you can make them, and ask which fits best and why.
 
 ## Question rules
 
-- One question per message, numbered against the budget (Q1 of 10, Q2 of
-  10, and so on), under 30 words. End the message after the question.
-- Offer choices for facts with a short list of answers, such as who the
-  audience is or how often something happens, or when the user says they're
-  stuck. Keep the list to three and add "or something else," so they can
-  combine choices or answer their own way.
 - A leading question contains the answer you expect, like "Is it because the
   reading is too long?" Ask what happened or what they noticed instead, and
   let them name the cause.
-- Prefer "walk me through" over "why do you think."
-- Never re-ask something answered.
-- If the user answers a question with a solution, write it down as an idea
-  to test later and ask the question again.
-- If two answers conflict, quote both in one line and ask which holds for
-  the case under discussion. If an answer is a general impression, ask for
-  one dated instance.
-- If the user says "I don't know," accept it, note it under what you are
-  unsure about, and move on.
-- Ten questions is the budget for the whole interview, not a target. The
-  REFLECT check does not count against it. Before each question, name to
-  yourself the unknowns that remain, rank them by how much a surprising
-  answer would change the specification, and ask the one at the top. A
-  question whose answer could overturn your current picture beats one that
-  would only confirm it. Do not spend a question on anything already in
-  the user's message or files.
-- Stop asking when you could fill all four REFLECT headings without
-  guessing, even if questions remain. If one heading would still be a
-  guess, ask about that and nothing else. Say that you are stopping and
-  which heading you are least sure of. At ten, go to REFLECT and list what
-  you still do not know under the fourth heading. "Enough" sends you to
-  REFLECT. "Skip" moves to the next stage.
+- If the user answers with a solution, note it as an idea to test and ask
+  the question again.
+- If the user says "I don't know," accept it and mark it as a guess in the
+  spec.
+- "Enough" skips to the next step.
 
-## The specification (NEXT)
+## After the visual: the pressure test (offer it, don't force it)
 
-Under 400 words, with these headings:
+If the user says yes:
 
-- Problem statement, in one or two sentences, in the user's terms.
-- Constraints.
-- Evidence of success: what would be observed, by when.
-- Options, two or three, each with one tradeoff.
-- Recommendation.
-- Next step, with an owner and a date.
-- Evidence versus assumption: which parts rest on what the user said, and
-  which on your inference.
-- Open questions.
-
-Then add a block headed "Reusable prompt," under 200 words: the five stage
-names, the three to five questions that changed your understanding, reworded
-so a colleague with a different problem could use them, and the lens you
-chose with one line on why.
-
-## After NEXT: the pressure test (offer it, do not force it)
-
-Once the specification is confirmed, offer one more round. If the user says
-yes:
-
-1. Propose five people who would see the plan differently. Roles, not names.
+1. Propose five people who would see the spec differently. Roles, not names.
    Give each a different thing they would protect, such as time, fairness,
    evidence, morale, or reputation. For each: what they would notice that the
-   user has not, what they would get wrong, and which of the other four they
-   would disagree with most. Stop and let the user pick three. Do not argue
+   user hasn't, what they would get wrong, and which of the other four they
+   would disagree with most. Stop and let the user pick three. Don't argue
    with the choice.
-2. Answer as each of the three, one at a time, to the same three questions:
-   what is right about this plan, what breaks first, and what one change
-   would you make. Under 120 words each, in their own priorities. Where two
-   would agree, say so in the comparison rather than softening one.
-3. Write a comparison under three headings: where all three agree, where
-   they split, and what none of them raised. Stop after the third heading.
-   No conclusion, no recommendation, no next step.
-4. Ask one question: which change, if any, the user wants to make to the
-   plan. Update the specification if so.
+2. Answer as each of the three, one at a time: what is right about this
+   plan, what breaks first, and what one change would you make. Under 120
+   words each, in their own priorities.
+3. Compare them under three headings: where all three agree, where they
+   split, and what none of them raised. Stop there, with no recommendation.
+4. Ask which change, if any, the user wants to make, and update the spec.
 
 ## With other skills
 
 Other skills also interview before building, such as superpowers'
 brainstorming. When the user invokes this skill by name or says "interview
-me first," this skill owns the questions through REFLECT, and the other
-skill's question phase is skipped. The confirmed specification is the
-description the other skill needs before building. If the work is software
-in a repository, hand the specification to that skill's design or planning
-step instead of running a second interview. If the user asked to build
-something and did not ask for an interview, let the other skill run and do
-not start this one.
+me first," this skill owns the questions through the spec, and the other
+skill's question phase is skipped. The reviewed spec is the description the
+other skill needs before building. If the work is software in a repository,
+hand the spec to that skill's design or planning step instead of running a
+second interview. If the user asked to build something and didn't ask for an
+interview, let the other skill run and don't start this one.
 
-## Do not
+## Don't
 
-- Do not propose activities, drafts, or solutions before REFLECT is confirmed.
-- Do not pad the interview to look thorough.
-- Do not use the lens names as jargon. One line each, in plain words.
-- Do not store or repeat personal information about third parties, such as
+- Don't propose solutions before the user has reviewed the spec.
+- Don't pad the interview to look thorough.
+- Don't store or repeat personal information about third parties, such as
   student names. Ask the user to describe people by role.

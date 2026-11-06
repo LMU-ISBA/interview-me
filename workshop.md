@@ -65,7 +65,7 @@ them.
 
 ## Use it as a Claude skill
 
-If you use Claude, the longer interview can be saved as a skill, so you don't
+If you use Claude, the same four steps are saved as a skill, so you don't
 paste anything. Say "interview me first" in any new chat. The steps to add,
 pause, remove, and change it are in the [README](README.md).
 
