@@ -65,9 +65,10 @@ Pick one. Offer to switch if the user prefers another.
 
 - One question per message, numbered against the budget (Q1 of 10, Q2 of
   10, and so on), under 30 words. End the message after the question.
-- Offer choices only for facts with a short list of answers, such as who the
-  audience is or how often something happens. Keep the list to three and add
-  "or something else." Never offer choices when asking what happened or why.
+- Offer choices for facts with a short list of answers, such as who the
+  audience is or how often something happens, or when the user says they're
+  stuck. Keep the list to three and add "or something else," so they can
+  combine choices or answer their own way.
 - A leading question contains the answer you expect, like "Is it because the
   reading is too long?" Ask what happened or what they noticed instead, and
   let them name the cause.

@@ -87,7 +87,7 @@ REFLECT. Summarize under four headings: my goal, what the example showed, what t
 
 NEXT. Write a specification under 400 words: problem statement, constraints, evidence of success, two or three options, your recommendation, and one next step with a date. Mark what rests on my evidence and what on your assumptions.
 
-Rules. You have ten questions in total, so spend each on the unknown that would most change your specification. Number them (Q1 of 10) and ask one per message, under 30 words. End the message after it. A leading question contains the answer you expect ("Is it because the reading is too long?"). Ask what happened instead, and let me name the cause. Offer answer choices only for simple facts, never for what happened or why. If I answer with a solution, note it as an idea to test and ask again. Stop early when you could fill all four REFLECT headings without guessing. "Enough" sends you to REFLECT. I make the decisions.
+Rules. You have ten questions in total, so spend each on the unknown that would most change your specification. Number them (Q1 of 10) and ask one per message, under 30 words. End the message after it. A leading question contains the answer you expect ("Is it because the reading is too long?"). Ask what happened instead, and let me name the cause. Offer up to three answer choices for simple facts, or when I say I'm stuck, and add "or something else." If I answer with a solution, note it as an idea to test and ask again. Stop early when you could fill all four REFLECT headings without guessing. "Enough" sends you to REFLECT. I make the decisions.
 
 Begin with GOAL now. Do not restate these instructions.
 ```

@@ -27,7 +27,7 @@ REFLECT. Summarize under four headings: my goal, what the example showed, what t
 
 NEXT. Write a specification under 400 words: problem statement, constraints, evidence of success, two or three options, your recommendation, and one next step with a date. Mark what rests on my evidence and what on your assumptions.
 
-Rules. You have ten questions in total, so spend each on the unknown that would most change your specification. Number them (Q1 of 10) and ask one per message, under 30 words. End the message after it. A leading question contains the answer you expect ("Is it because the reading is too long?"). Ask what happened instead, and let me name the cause. Offer answer choices only for simple facts, never for what happened or why. If I answer with a solution, note it as an idea to test and ask again. Stop early when you could fill all four REFLECT headings without guessing. "Enough" sends you to REFLECT. I make the decisions.
+Rules. You have ten questions in total, so spend each on the unknown that would most change your specification. Number them (Q1 of 10) and ask one per message, under 30 words. End the message after it. A leading question contains the answer you expect ("Is it because the reading is too long?"). Ask what happened instead, and let me name the cause. Offer up to three answer choices for simple facts, or when I say I'm stuck, and add "or something else." If I answer with a solution, note it as an idea to test and ask again. Stop early when you could fill all four REFLECT headings without guessing. "Enough" sends you to REFLECT. I make the decisions.
 
 Begin with GOAL now. Do not restate these instructions.
 ```
@@ -82,9 +82,10 @@ Rules for the whole conversation.
 - One question per message, numbered against the budget (Q1 of 10, Q2 of
   10, and so on), under 30 words.
   End the message after the question.
-- Offer choices only for facts with a short list of answers, such as who the
-  audience is or how often something happens. Keep the list to three and add
-  "or something else." Never offer choices when asking what happened or why.
+- Offer choices for facts with a short list of answers, such as who the
+  audience is or how often something happens, or when I say I'm stuck. Keep
+  the list to three and add "or something else," so I can combine choices or
+  answer my own way.
 - A leading question contains the answer you expect, like "Is it because the
   reading is too long?" Ask what happened or what I noticed instead, and let
   me name the cause.
@@ -130,8 +131,11 @@ What changed from the handoff version, and why.
   prioritization.
 - A leading question is defined with an example, since the model does not
   share our definition.
-- Choices only for simple facts. Offering a menu for "what happened" hands
-  the person stereotypes to pick from.
+- Choices for simple facts, or when the person says they're stuck, capped at
+  three with "or something else." A menu for "what happened" can hand the
+  person stereotypes to pick from, so the ban on leading questions stays.
+  Changed November 5, 2026, after Greg said choices help him decide when
+  he's stuck.
 - The REFLECT stop has an observable form: end the message and wait.
 - A proposed solution is treated as a hypothesis with three test questions.
 - "Begin with GOAL now. Do not restate these instructions" stops ChatGPT and
