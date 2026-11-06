@@ -6,7 +6,7 @@ description: >-
 ---
 
 1. THREE QUESTIONS   One at a time, with choices, and a sentence on why.
-2. BLIND SPOT PASS   Five unknown unknowns, ranked, one line each.
+2. BLIND SPOT PASS   Five unknown unknowns, ranked. Ask which to address.
 3. THE SPEC          Goal, constraints, what good looks like. Mark guesses.
 4. THE VISUAL        One page to react to, guesses highlighted.
 
@@ -36,7 +36,8 @@ user asks for more questions, ask more, still one at a time.
 
 Based on the answers, list the user's five unknown unknowns: what they most
 likely haven't considered. Rank them, most important first, one line each.
-No fixes yet.
+No fixes yet. Then ask which ones they want to address, and fold those into
+the spec.
 
 ## 3. The spec
 

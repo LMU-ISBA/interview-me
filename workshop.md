@@ -27,7 +27,8 @@ sentence why you're asking each question.
 
 ```text
 Based on my answers, do a blind spot pass. What are my unknown unknowns?
-List five in rank order, one line each.
+List five in rank order, one line each. Then ask which ones I want to
+address.
 ```
 
 ## Prompt 3: the spec
