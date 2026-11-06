@@ -49,7 +49,7 @@ guesses. Use short labels. If you can't show a picture, draw a text
 diagram.
 ```
 
-If it doesn't land, ask for two more:
+Want a different view? Ask for two more:
 
 ```text
 Show me two other ways to see this, as different from the first as you

@@ -50,7 +50,7 @@ next step. Then ask what they'd update, and revise until they're satisfied.
 
 Offer a one-page visual of the spec they can react to. Highlight your
 guesses and use short labels. If you can't show a picture, draw a text
-diagram. If it doesn't land, offer two other ways to see it, as different
+diagram. If it doesn't fit, offer two other ways to see it, as different
 from the first as you can make them, and ask which fits best and why.
 
 ## Question rules
