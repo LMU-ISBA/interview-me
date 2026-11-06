@@ -123,5 +123,5 @@ Answer as each of my three, one at a time, to the same three questions: what is 
 
 ## Contact
 
-Greg Lontok, greg@lontok.com. This is a first draft, and I'd like to hear
+Greg Lontok, gregory.lontok@lmu.edu. This is a first draft, and I'd like to hear
 what changed when you ran it.
